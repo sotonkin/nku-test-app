@@ -3,7 +3,7 @@
 	import { onMount, onDestroy } from 'svelte';    
 	let power:number = 50;
 	let uniqID:number;
-	let ID ='POWER_123';
+	export let ID ='POWER_123';
 	const displayed_power = spring();
 	let client:any;
 	let resived:boolean = false;

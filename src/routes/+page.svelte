@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section>
-	<Power />
+	<Power ID='POWER_COUNTER_1'/>
 </section>
 
 <style>
